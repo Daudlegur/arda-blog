@@ -19,17 +19,21 @@
   grid-area: 2/4/5/5;
 }
 .homebody {
+  scroll-margin-top: 50px;
   margin-top: 50px;
   grid-row-start: 2;
   grid-column-start: 2;
   grid-row-end: 2;
   grid-column-end: 4;
-  background-color: blue;
 }
 .blogbody {
   margin-top: 50px;
   grid-area: 2/2;
 }
 .navig {
+  margin-top: 50px;
+  right:11vw;
+  left: 75vw;
   grid-area: 2/3/5/3;
+  position: fixed;
 }

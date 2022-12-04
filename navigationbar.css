@@ -1,5 +1,6 @@
 .topnav {
   overflow: hidden;
+  margin-left: 10px;
 }
 .topnav a {
   float: left;

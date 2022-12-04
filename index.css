@@ -3,6 +3,7 @@
    border: 5px #666;
    border-style: double;
    margin-top:-10px;
+   margin-bottom:20px;
    padding: 10px;
    background-color: lightblue;
  }
@@ -12,9 +13,21 @@
    height: auto;
  }
 
+ .calendar{
+   margin: auto auto;
+ }
+
+ #anch_4,#anch_7,#anch_8,#anch_10,#anch_12,#anch_13,#anch_14,#anch_15,#anch_18,#anch_30 {
+   scroll-margin-top: 50px;
+ }
+
+ h4 {
+   margin-top: -20px;
+ }
+
  body {
    background-color: #aaa;
    display: grid;
-   grid-template-columns: 10vw auto 20vw 10vw;
+   grid-template-columns: 10vw 63vw 17vw 10vw;
    grid-template-rows: auto;
  }
