@@ -1,0 +1,35 @@
+.topgap {
+  position: fixed;
+  left: 10vw;
+  right:10vw;
+  top:0;
+  border-bottom: : 5px #666 double;
+  border-bottom-style: double;
+  border-bottom-width: 5px;
+  border-bottom-color: #666;
+  grid-area: 1/2/1/4;
+  background-color: #aaa;
+  overflow: hidden;
+}
+.leftgap {
+  grid-area: 2/1/5/1;
+  /*background-color: blue;*/
+}
+.rightgap {
+  grid-area: 2/4/5/5;
+}
+.homebody {
+  margin-top: 50px;
+  grid-row-start: 2;
+  grid-column-start: 2;
+  grid-row-end: 2;
+  grid-column-end: 4;
+  background-color: blue;
+}
+.blogbody {
+  margin-top: 50px;
+  grid-area: 2/2;
+}
+.navig {
+  grid-area: 2/3/5/3;
+}

@@ -1,3 +1,20 @@
-body {
-  background-color: #444;
-}
+
+ .blogframe {
+   border: 5px #666;
+   border-style: double;
+   margin-top:-10px;
+   padding: 10px;
+   background-color: lightblue;
+ }
+
+ .responsiveimage {
+   width: 100%;
+   height: auto;
+ }
+
+ body {
+   background-color: #aaa;
+   display: grid;
+   grid-template-columns: 10vw auto 20vw 10vw;
+   grid-template-rows: auto;
+ }
