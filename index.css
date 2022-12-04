@@ -24,10 +24,18 @@
  h4 {
    margin-top: -20px;
  }
-
- body {
+@media (max-width:750px){
+  body {
+    background-color: #aaa;
+    display: grid;
+    grid-template-columns: 0vw 90vw 0vw 0vw;
+    grid-template-rows: auto;
+    justify-content: center;
+  }}
+@media (min-width:750px){
+   body {
    background-color: #aaa;
    display: grid;
-   grid-template-columns: 10vw 63vw 17vw 10vw;
+   grid-template-columns: 10vw auto 200px 10vw;
    grid-template-rows: auto;
- }
+ }}

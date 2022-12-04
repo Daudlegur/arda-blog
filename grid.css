@@ -1,16 +1,4 @@
-.topgap {
-  position: fixed;
-  left: 10vw;
-  right:10vw;
-  top:0;
-  border-bottom: : 5px #666 double;
-  border-bottom-style: double;
-  border-bottom-width: 5px;
-  border-bottom-color: #666;
-  grid-area: 1/2/1/4;
-  background-color: #aaa;
-  overflow: hidden;
-}
+
 .leftgap {
   grid-area: 2/1/5/1;
   /*background-color: blue;*/
@@ -30,10 +18,43 @@
   margin-top: 50px;
   grid-area: 2/2;
 }
-.navig {
+
+@media (max-width:750px){
+  .navig {
+  display: none;}
+
+  .topgap {
+    position: fixed;
+    left: 5vw;
+    right:5vw;
+    top:0;
+    border-bottom-style: double;
+    border-bottom-width: 5px;
+    border-bottom-color: #666;
+    grid-area: 1/1/1/5;
+    background-color: #aaa;
+    overflow: hidden;
+  }
+}
+@media (min-width:750px){
+  .navig {
   margin-top: 50px;
-  right:11vw;
-  left: 75vw;
+  position: inherit;
+  right: 11.5vw;
   grid-area: 2/3/5/3;
-  position: fixed;
+  position: fixed;}
+
+  .topgap {
+    position: fixed;
+    left: 10vw;
+    right:10vw;
+    top:0;
+    border-bottom: : 5px #666 double;
+    border-bottom-style: double;
+    border-bottom-width: 5px;
+    border-bottom-color: #666;
+    grid-area: 1/2/1/4;
+    background-color: #aaa;
+    overflow: hidden;
+  }
 }
